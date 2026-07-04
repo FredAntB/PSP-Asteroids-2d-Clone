@@ -1,0 +1,28 @@
+# ====================================================================
+# PSP SDK - Archivos de Compilación Temporales y Binarios
+# ====================================================================
+*.o
+*.d
+*.elf
+*.SFO
+PARAM.SFO
+EBOOT.PBP
+
+# Si llegas a exportar datos del juego o empaquetar en carpetas locales
+# para pruebas rápidas
+/__SCE__*
+/%__SCE__*
+
+# ====================================================================
+# Archivos del Sistema Operativo
+# ====================================================================
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# Configuraciones de Entornos de Desarrollo (IDEs)
+# ====================================================================
+.vscode/
+.idea/
+*.suo
+*.user
